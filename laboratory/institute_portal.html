@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amr Torky Institute — Professional Accreditation Portal</title>
+    <style>
+        body { margin: 0; font-family: monospace; background: #0d1117; color: #c9d1d9; padding: 40px; }
+        h1, h2, h3 { color: #58a6ff; }
+        .pricing-card { background: #161b22; border: 1px solid #30363d; padding: 20px; border-radius: 8px; margin-bottom: 30px; }
+        .timeline { border-left: 2px solid #30363d; padding-left: 20px; margin-left: 10px; }
+        .timeline-item { margin-bottom: 25px; position: relative; }
+        .badge { background: #238636; color: #fff; padding: 2px 8px; border-radius: 10px; font-size: 12px; }
+        .console-box { background: #010409; border: 1px solid #30363d; padding: 15px; color: #7ee787; border-radius: 6px; }
+        input, button { background: #21262d; border: 1px solid #30363d; color: #c9d1d9; padding: 8px 12px; border-radius: 6px; font-family: monospace; }
+        button:hover { background: #30363d; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>🎓 Amr Torky Institute for Physical Engineering</h1>
+    <p>6-Month Professional Accreditation Topology & Cryptographic Proof System</p>
+
+    <div class="pricing-card">
+        <h2>🛡️ Fiduciary Tuition Model</h2>
+        <p>Standard Tuition: $12,000 USD | Limited-Time Launch Offer (50% Off): <strong>$6,000 USD Net</strong></p>
+        <p>Accreditation Baseline: Requires a strict >= 80% compliance score on hardware stabilization loops.</p>
+    </div>
+
+    <h2>📅 6-Month System Curriculum Roadmap</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <h3>🟦 Weeks 01–06: Advanced Non-Singular Linear Algebra</h3>
+            <p>Invariant matrices inside real numeric spaces. Regularization constant epsilon = 0.016 nm^2 caps potential energy at V_finite(0) = 11.384 eV to guarantee 0.00% NaN crashes.</p>
+            <span class="badge">CMSP Specialist</span>
+        </div>
+        <div class="timeline-item">
+            <h3>🟩 Weeks 07–12: Bare-Metal Control Plane Stabilization</h3>
+            <p>Executing Tikhonov damping shifts at strict 20 ms interlock intervals to clamp the Hessian condition number kappa(H) <= 18.5.</p>
+            <span class="badge">Superconducting QPU Engineer</span>
+        </div>
+    </div>
+
+    <h2>✍️ Live Boardroom Certification Tester</h2>
+    <input type="text" id="studentName" value="Dr. Sarah Jenkins">
+    <input type="number" id="examScore" value="88.5" min="0" max="100" step="0.1">
+    <button onclick="simulateVerification()">Process Verification</button>
+
+    <br><br>
+    <div class="console-box" id="certConsole">
+amr@DESKTOP-9DLG3I0:~$ Awaiting examination submission matrix...
+    </div>
+
+    <script>
+        function simulateVerification() {
+            const name = document.getElementById('studentName').value;
+            const score = parseFloat(document.getElementById('examScore').value);
+            const consoleBox = document.getElementById('certConsole');
+            if (score < 80.0) {
+                consoleBox.innerHTML = `❌ [ACCREDITATION FAILED]: Score ${score}% falls below the mandatory 80% baseline limit.`;
+            } else {
+                consoleBox.innerHTML = `✓ [SUCCESS]: Cryptographic SHA-256 certificate digest generated for ${name}.<br>✓ [STATUS]: SEALED & ACCREDITED under ISO/IEC 17025 standards.`;
+            }
+        }
+    </script>
+</body>
+</html>
