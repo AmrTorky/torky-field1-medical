@@ -1,0 +1,7 @@
+{
+  "title": "Amr Torky Institute Sovereign Research Subsystem - $repo",
+  "conceptdoi": "10.5281/zenodo.22785402",
+  "creators": [{"name": "Torky, Amr", "orcid": "0009-0003-6539-8267", "affiliation": "Amr Torky Institute for Theory of Everything & Theory of Every Code"}],
+  "description": "Archival release for Amr Torky Institute research repository: $repo under Amrtorky-institute sovereign pipeline release.",
+  "access_right": "open", "license": "apache-2.0", "upload_type": "software"
+}
